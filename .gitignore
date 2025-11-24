@@ -1,0 +1,44 @@
+# SSH private keys
+ssh/.ssh/id_*
+ssh/.ssh/*.pem
+ssh/.ssh/*.key
+
+# API tokens and secrets
+**/*token*
+**/*secret*
+**/*password*
+**/credentials
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor swap/backup files
+*.swp
+*.swo
+*~
+.*.swp
+
+# Cache files
+**/*cache*/
+**/.cache/
+
+# Local environment files
+**/.env
+**/.env.local
+
+# Compiled/built files
+*.zwc
+*.pyc
+**/__pycache__/
+
+# Plugin managers data
+**/plugged/
+**/plugins/
+lvim/.config/lvim/plugin/
+nvim/.config/nvim/plugin/
+
+# History files that may contain sensitive info
+**/*_history
+**/.lesshst
