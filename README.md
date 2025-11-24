@@ -57,7 +57,7 @@ sudo dnf install stow
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/alecpruth/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ```
 
@@ -146,14 +146,14 @@ stow PACKAGE_NAME
 
 **New macOS machine:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/alecpruth/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow zsh git tmux alacritty nvim gh aerospace
 ```
 
 **New Linux machine:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/alecpruth/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow zsh git tmux alacritty nvim gh btop
 ```
